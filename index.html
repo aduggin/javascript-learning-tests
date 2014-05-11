@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Mocha</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/mocha.css" />
+    <script src="vendor/jquery.js"></script>
+    <script src="vendor/underscore.js"></script>
+    <script src="vendor/mocha.js"></script>
+    <script src="vendor/chai.js"></script>
+    <script src="vendor/sinon.js"></script>
+    <script>
+        mocha.setup('bdd')
+        var should = chai.should(),
+            expect = chai.expect;
+    </script>
+
+    <script src="tests/arrays.js"></script>
+</head>
+<body>
+<div id="mocha"></div>
+
+<script>
+    mocha.checkLeaks();
+    mocha.globals(['jQuery']);
+    mocha.run();
+</script>
+</body>
+</html>
