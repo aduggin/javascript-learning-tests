@@ -13,8 +13,10 @@ Open app/index.html in your browser of choice
     ./node_modules/karma/bin/karma start karma.conf.js
 
 The Karma server will run on port 9877 and will automatically run the tests in Chrome, Safari and PhantomJS
+
 http://localhost:9877/
 
 When the Karma server is running you can also view the Mocha html reporter in the browser
-http://localhost:9877/
+
+http://localhost:9876/debug.html
 
