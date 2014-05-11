@@ -12,3 +12,9 @@ Open app/tests/index.html in your browser of choice
     npm install
     ./node_modules/karma/bin/karma start karma.conf.js
 
+The Karma server will run on port 9877
+http://localhost:9877/
+
+When this is running you can also view the Mocha html reporter in the browser
+http://localhost:9877/
+
