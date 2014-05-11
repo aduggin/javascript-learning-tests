@@ -6,13 +6,13 @@ module.exports = function(config) {
             'tests/**/*.js'
         ],
         exclude: [],
-        reporters: ['progress'],
+        reporters: ['mocha'],
         port: 9876,
         colors: true,
         logLevel: config.LOG_ERROR,
         autoWatch: false,
         browsers: ['Safari', 'Chrome', 'PhantomJS'],
         captureTimeout: 6000,
-        singleRun: false
+        singleRun: true
     });
 };
