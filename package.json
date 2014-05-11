@@ -1,17 +1,17 @@
 {
-  "name": "javascript-learning-tests",
-  "version": "0.0.1",
-  "description": "A suite of tests to help learn and explore JavaScript",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/aduggin/javascript-learning-tests.git"
-  },
-  "author": "Alistair Duggin",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aduggin/javascript-learning-tests/issues"
-  },
-  "homepage": "https://github.com/aduggin/javascript-learning-tests",
+    "name": "javascript-learning-tests",
+    "version": "0.0.1",
+    "description": "A suite of tests to help learn and explore JavaScript",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/aduggin/javascript-learning-tests.git"
+    },
+    "author": "Alistair Duggin",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/aduggin/javascript-learning-tests/issues"
+    },
+    "homepage": "https://github.com/aduggin/javascript-learning-tests",
     "devDependencies": {
         "karma": "^0.12.16",
         "mocha": "^1.18.2",
@@ -26,6 +26,8 @@
         "karma-phantomjs-launcher": "^0.1.4",
         "karma-ie-launcher": "^0.1.5",
         "karma-safari-launcher": "^0.1.1",
-        "karma-mocha-debug": "^0.1.2"
+        "karma-mocha-debug": "^0.1.2",
+        "grunt": "^0.4.4",
+        "grunt-gh-pages": "^0.9.1"
     }
 }
