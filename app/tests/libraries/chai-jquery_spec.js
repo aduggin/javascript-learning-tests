@@ -3,7 +3,8 @@
 describe("chai-jquery", function(){
 
     it("should work", function () {
-        $('#foobar').should.not.exist;
+        expect($('#foobar')).to.not.exist;
+
     });
 
     /*
