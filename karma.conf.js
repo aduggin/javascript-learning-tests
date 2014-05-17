@@ -1,7 +1,7 @@
 module.exports = function(config) {
     config.set({
         basePath: 'app',
-        frameworks: ['mocha-debug', 'mocha', 'chai', 'sinon'],
+        frameworks: ['mocha-debug', 'mocha', 'chai-jquery', 'chai', 'sinon', 'jquery-1.11.0'],
         files: [
             'tests/**/*.js'
         ],
@@ -12,6 +12,7 @@ module.exports = function(config) {
         logLevel: config.LOG_ERROR,
         autoWatch: false,
         browsers: ['Safari', 'Chrome', 'PhantomJS'],
+
         captureTimeout: 6000,
         singleRun: true
     });
