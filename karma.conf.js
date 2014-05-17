@@ -3,8 +3,12 @@ module.exports = function(config) {
         basePath: 'app',
         frameworks: ['mocha-debug', 'mocha', 'chai-jquery', 'chai', 'sinon', 'jquery-1.11.0'],
         files: [
-            'tests/**/*.js'
+            'tests/**/*.js',
+            'tests/fixtures/*.html'
         ],
+        preprocessors: {
+            '**/*.html': ['html2js']
+        },
         exclude: [],
         reporters: ['mocha'],
         port: 9876,
